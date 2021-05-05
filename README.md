@@ -1,4 +1,4 @@
-# CyTOF_DataAnalysis
+# CyTOF Data Analysis
 *Author: Daphne van Ginneken*  
   
 Welcome to the GitHub repository were the scripts used to complete my bachelor thesis are stored.

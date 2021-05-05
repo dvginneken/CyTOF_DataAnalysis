@@ -3,7 +3,7 @@
   
 Welcome to the GitHub repository were the scripts used to complete my bachelor thesis are stored.
   
-The computational part of my research consists of 3 components:  
+The computational part of this research consists of 3 components:  
 ## 1. Preprocessing
 These scripts form a pipeline which preprocesses raw CyTOF samples.  
 ## 2. Single Feature Analysis

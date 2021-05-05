@@ -13,7 +13,7 @@ The pipeline results in preprocessed FCS files and an expression matrix in CSV f
 ## Input Data
 This pipeline is used to preprocess CyTOF samples from studies in the FluPRINT database (https://fluprint.com/#/about). These raw FCS file can be downloaded from https://immport.org/shared/home. The studies which were preprocessed with this pipeline are: SDY112, SDY113, SDY305, SDY311, SDY315, SDY472, SDY478, SDY515, SDY519, SDY1466, SDY1468, SDY1471.
 
-## Preprare Data
+## Prepare Data
 After downloading it is important to organize the data in a specific way by following these steps:
 1. Download this folder
 2. Within this folder: create a folder for each study you want to preprocess in the format: SDY[study]

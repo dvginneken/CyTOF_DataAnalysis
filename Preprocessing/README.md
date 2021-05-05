@@ -34,3 +34,6 @@ Preprocess(directory, markers, studies, control = TRUE)
 
 For an average sample:  
 Preprocess(directory, markers, studies, control = FALSE)
+
+## Visual Representation
+Within the preprocessing pipeline RData files of FlowSets are saved. These RData files can be used to create t-SNE plots afterwards. After you changes a few parameters in the script Create.TSNE_FlowSet.R you can run this script to create plots and save them in PNG format.

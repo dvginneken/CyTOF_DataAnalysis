@@ -20,8 +20,17 @@ After downloading it is important to organize the data in a specific way by foll
 3. Within each SDY folder: Create a folder for each batch in the format: Batch[batch number]. When this study only has 1 batch create the folder: Batch1
 4. Save the metadata files from Immport in each corresponding SDY folder, change the name of the file to: Metadata_Cytof_SDY[study].
 5. Save the raw FCS files from Immport in their designated folder.
-6. Run the script Define_Gates.R to create density plots
-7. Determine live/dead gates based on the density plots and write the gates in a file called Gates.xlsx (see example)
-8. Create a file called Panel.xlsx (see example) to define which markers to use in the analysis
+6. Change the parameters "directory" and "studies" in the script Define_Gates.R and run the script to create density plots.
+8. Determine live/dead gates based on the density plots and write the gates in a file called Gates.xlsx (see example)
+9. Create a file called Panel.xlsx (see example) to define which markers to use in the analysis
 
 ## Run the preprocessing pipeline
+In order to run the pipeline change the parameters "directory" and "studies" in the script Preprocessing_pipeline.R and run the script.  
+If you want to perform the intra-study normalization based on existing control samples from immport, change the variable "control" to TRUE. If you do not want to use existing control samples set "control" to FALSE in order to create an average control sample.
+
+**Example:**  
+For the existing control sample:  
+Preprocess(directory, markers, studies, control = TRUE)
+
+For an average sample:  
+Preprocess(directory, markers, studies, control = FALSE)

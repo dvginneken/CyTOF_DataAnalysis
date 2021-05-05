@@ -8,7 +8,7 @@ The preprocessing includes:
 * An inter-study normalization
 * Downsampling to prepare for clustering  
 
-The pipeline results in preprocessed FCS files and an expression matrix in CSV format.  
+The pipeline results in preprocessed FCS files and an expression matrix in CSV format. These results can be used for clustering. For example, a FlowSOM clusterin on omiq.ai  (Omiq, Inc, Santa Clara, CA, USA). 
 
 ## Input Data
 This pipeline is used to preprocess CyTOF samples from studies in the FluPRINT database (https://fluprint.com/#/about). These raw FCS file can be downloaded from https://immport.org/shared/home. The studies which were preprocessed with this pipeline are: SDY112, SDY113, SDY305, SDY311, SDY315, SDY472, SDY478, SDY515, SDY519, SDY1466, SDY1468, SDY1471.

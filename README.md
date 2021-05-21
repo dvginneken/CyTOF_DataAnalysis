@@ -10,3 +10,5 @@ These scripts form a pipeline which preprocesses raw CyTOF samples.
 After the preprocessed CyTOF samples are clustered, these scripts will analyze the association between the clusters and certain features.
 ## 3. Age Prediction
 A machine learning algorithm to predict ages based on a relative frequency table.  
+
+All scripts are written in R 4.0.2
